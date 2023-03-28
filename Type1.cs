@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace gamemathstudy
 {
-    class Program
+    class Type1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            var a = 20;
+            var b = new int[] { 10, 20, 30 };
+            for (int i = 0; i < b.Length; i++)
+            {
+                Console.WriteLine(b[i]);
+            }
         }
     }
 }
