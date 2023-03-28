@@ -32,6 +32,8 @@ namespace gamemathstudy
                     Console.WriteLine(a / b);
                     break;
             }
+
+            // -10 출력
         }
     }
 }
