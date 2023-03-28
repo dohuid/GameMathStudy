@@ -20,7 +20,7 @@ namespace gamemathstudy
             // b = 살아있거나, 고랩 유저이거나, 둘 중 하나인가요?
             bool b = isAlive || isHightLevel;
             // c = 죽은 유저인가요?
-            bool c = !isAlive
+            bool c = !isAlive;
         }
     }
 }
